@@ -1,0 +1,16 @@
+import java.io.*;
+public class Main
+{
+    public static void main (String[] args) throws IOException {
+        
+        
+        FileWriter writer=new FileWriter("1.txt");
+        writer.write("this \n is\n an \n example");
+        writer.close();
+        
+        FileReader fr=new FileReader("1.txt");
+        char a[]=new char[50];
+        fr.read(a);
+     
+    }
+}
