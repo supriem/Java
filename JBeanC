@@ -1,0 +1,12 @@
+import java.io.Serializable;
+
+public class JBeanC implements Serializable{
+    private int id;
+    private String name;
+    int getId(){
+        return id;
+    }
+    void setId(int id){
+        this.id=id;
+    }
+}
